@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello, CI/CD with Docker and GitHub Actions!");
+  res.send("Hello, CI/CD completed!");
 });
 
 const PORT = 80;
